@@ -67,9 +67,11 @@ checkstyle {
     ignoreFailures = true
 }
 
+
 tasks.withType(Checkstyle) {
     reports {
             xml.required = true
+            xml.outputLocation = file("$buildDir/reports/checkstyle/test.xml")
             html.required = false
         }
 }

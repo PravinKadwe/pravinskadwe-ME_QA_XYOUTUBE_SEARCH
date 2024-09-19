@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45">
+<file name="C:\Users\pravi\Downloads\Programs\CrioDo\pravinskadwe-ME_QA_XYOUTUBE_SEARCH\src\main\java\demo\App.java">
+<error line="7" severity="error" message="USED_SOPL" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+</checkstyle>
